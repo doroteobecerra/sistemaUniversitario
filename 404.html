@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    html {
+      color: #888;
+      display: table;
+      font-family: sans-serif;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      vertical-align: middle;
+      margin: 2em auto;
+      background-color: #888;
+    }
+
+    h1 {
+      color: #555;
+      font-size: 2em;
+      font-weight: 400;
+      color: #fff;
+    }
+    a{
+      padding: 10px;
+      background-color: rgb(18, 34, 179);
+      display: inline;
+      margin: 10px auto;
+      width: 10rem;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    p {
+      margin: 0 auto;
+      width: 280px;
+      color: #fff;
+    }
+    p.error{
+      font-size: 20rem;
+      margin: 0 auto;
+      display: inline;
+      color: #fff;
+    }
+   
+
+    @media only screen and (max-width: 280px) {
+
+      body,
+      p {
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin: 0 0 0.3em;
+        color: #fff;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <p class="error">404</p>
+  </div>
+  <h1>¡PAGINA NO ENCONTRADA!</h1>
+  <p>Lo lamentamos, al parecer la páguina que buscas no existe o no pudimos encontrarla.
+    Pero no te preocupes, regresa </p><a href="index.php">dando click aqui</a>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
